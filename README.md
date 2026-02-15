@@ -1,39 +1,47 @@
 # Samba Server Lab
 
-Projeto prático de servidor Samba em Linux, simulando ambiente corporativo simples.
+This repository demonstrates a basic Samba file server implementation designed for small to mid-size enterprise environments.
 
-## Objetivo
+The project focuses on practical IT Support and Junior System Administration scenarios, including user management, file sharing, permissions, and basic automation.
 
-Criar um servidor de arquivos com:
+---
 
-- Usuários locais
-- Grupos
-- Permissões por pasta
-- Compartilhamento via Samba
-- Testes de acesso
-- Estrutura básica de backup
+## 🧰 Technologies
 
-## Tecnologias
+- Linux (Ubuntu/Debian based)
+- Samba Server
+- Bash scripting
+- Local user & group management
 
-- Linux
-- Samba
-- Usuários e grupos
-- Permissões (chmod / chown)
+---
 
-## Estrutura
+## 🎯 Objectives
 
-/shared/public  
-/shared/finance  
-/shared/it  
+- Deploy a Samba file server
+- Configure shared folders
+- Apply group-based permissions
+- Simulate enterprise access control
+- Automate basic setup tasks
+- Document architecture and processes
 
-## Funcionalidades
+---
 
-- Pasta pública (leitura/escrita)
-- Pasta financeira (acesso restrito)
-- Pasta TI (administração)
-- Usuários autenticados
-- Teste via cliente Windows/Linux
+## 📁 Structure
 
-## Status
+samba-server-lab/
+├── config/
+│ └── smb.conf
+├── scripts/
+│ └── setup.sh
+├── docs/
+│ └── architecture.md
+└── README.md
+---
 
-Em desenvolvimento.
+## 🚀 Setup
+
+```bash
+chmod +x scripts/setup.sh
+sudo ./scripts/setup.sh
+
+
