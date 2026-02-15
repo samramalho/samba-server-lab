@@ -36,6 +36,8 @@ samba-server-lab/
 ├── docs/
 │ └── architecture.md
 └── README.md
+
+
 ---
 
 ## 🚀 Setup
@@ -43,5 +45,26 @@ samba-server-lab/
 ```bash
 chmod +x scripts/setup.sh
 sudo ./scripts/setup.sh
+🔐 Shared Folder
+Default shared directory:
+
+/srv/samba/shared
+Access controlled via smbusers group.
+
+📚 Learning Goals
+IT Support Level 2 concepts
+
+Junior SysAdmin practices
+
+Samba administration basics
+
+Infrastructure documentation
+
+Operational automation
+
+👤 Author
+Samuel Fernando
+IT Support Specialist / Junior SysAdmin
+LinkedIn: https://www.linkedin.com/in/samramalho
 
 
